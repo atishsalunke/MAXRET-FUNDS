@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: maxret-funds
+    runtime: node
+    buildCommand: npm install --prefix frontend && npm install --prefix backend && npm run build --prefix frontend
+    startCommand: npm start --prefix backend
+    healthCheckPath: /api/health
