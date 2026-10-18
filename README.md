@@ -89,21 +89,6 @@ npm start
 | GET | `/api/fund/:id` | Get single fund details |
 | GET | `/api/fund/:id/nav-history` | Get 1-year NAV history (simulated) |
 
-### POST /api/analyze — Request Body
-```json
-{
-  "age": 28,
-  "monthlyIncome": 75000,
-  "incomeSource": "salaried",
-  "monthlySIP": 15000,
-  "lumpsum": 0,
-  "existingPortfolio": 0,
-  "investmentGoal": "Wealth Creation",
-  "investmentHorizon": 10,
-  "riskTolerance": "Moderate"
-}
-```
-
 ---
 
 ## Scoring Algorithm
